@@ -1,0 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class LearningHowToProgram : MonoBehaviour
+{
+   private void Start() {
+        float health = 100;
+        //if ,elseif and else condition
+        if (health == 0)
+        {
+            Debug.Log("You are Dead");
+        }
+        else if(health < 50)
+        {
+            Debug.Log("your hp is Low");
+        }
+        else
+        {
+            Debug.Log("Good Go Ahead");
+        }
+    }
+    
+}
