@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class LearningHowToProgram : MonoBehaviour
+{
+    private void Start()
+    {
+        int loop = 6;
+        int i=0;
+        // While loop
+        while (i < loop)
+        {
+            Debug.Log("the value of i:" + i);
+            i = i + 1;
+        }
+    }
+
+        
+}
